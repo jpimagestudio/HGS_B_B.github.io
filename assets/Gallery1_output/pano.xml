@@ -10,10 +10,10 @@
       <preview color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <start tilt="0" fov="500" projection="4" pan="0"/>
       <flyin tilt="-90" fov="170" projection="9" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="330" scaletofit="1" tilt="90" fov="140" fovfisheye="360" pan="360"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
     <userdata tags="海景照" customnodeid="" author="James Lee                      j62080@ms12.hinet.net" info="" heading="0" longitude="" source="" copyright="Copyright by James Lee." comment="" datetime="2023/2/12 6:43" description="窗外的景色，在清晨時分日出的照耀下顯得既寧靜又蓬勃。" latitude="" title="窗外海景照" nodeid="node1"/>
     <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
@@ -35,10 +35,10 @@
       <preview color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <start tilt="0" fov="500" projection="4" pan="0"/>
       <flyin tilt="-90" fov="170" projection="9" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="330" scaletofit="1" tilt="90" fov="140" fovfisheye="360" pan="360"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
     <userdata tags="海景照" customnodeid="" author="James Lee                      j62080@ms12.hinet.net" info="" heading="0" longitude="" source="" copyright="Copyright by James Lee." comment="" datetime="2023/2/12 7:59" description="太陽出來後，海水的顏色漸漸變的更藍。民宿下去往東直行大約100公尺即可抵達北濱海提，北行至花蓮港區，南向至南濱公園。" latitude="" title="窗外海景照" nodeid="node2"/>
     <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
@@ -60,10 +60,10 @@
       <preview color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <start tilt="0" fov="500" projection="4" pan="0"/>
       <flyin tilt="-90" fov="170" projection="9" pan="0"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovstereographic="330" scaletofit="1" tilt="90" fov="140" fovfisheye="360" pan="360"/>
+      <max fovstereographic="330" scaletofit="0" tilt="90" fov="140" fovfisheye="360" pan="360"/>
     </view>
     <userdata tags="海景照" customnodeid="" author="James Lee                      j62080@ms12.hinet.net" info="" heading="0" longitude="" source="" copyright="Copyright by James Lee." comment="" datetime="2023/2/12 13:00" description="正午時分，太平洋依然顯得湛藍。南濱公園再往南行，可以抵達木瓜溪出海口，溪口的另一端就是77高地，可以俯瞰整個花蓮市與吉安鄉。" latitude="" title="窗外海景照" nodeid="node3"/>
     <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
