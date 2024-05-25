@@ -440,7 +440,7 @@
       <hotspot pan="-260.46" distance="2.12794" id="Point03" url="{node13}" title="視聽室劇院" skinid="ht_node" tilt="0.41" description="" target="$fwd"/>
       <hotspot pan="-23.62" title="餐桌、電動麻將桌" skinid="ht_image" tilt="-27.98" id="Point04" description="" url="images/image-14.jpg" target=""/>
       <hotspot pan="-346.3" title="Switch遊戲片與健身環" skinid="ht_info" tilt="-20.82" id="Point05" description="" url="" target=""/>
-      <hotspot pan="-326.35" title="" skinid="ht_gallery" tilt="-15.46" id="Point06" description="gallery2_output" url="" target="_blank"/>
+      <hotspot pan="-322.66" title="" skinid="ht_gallery" tilt="-14.32" id="Point06" description="Gallery2_output" url="" target="_blank"/>
     </hotspots>
     <media>
       <sound pan="-1.000" loop="0" field="90.000" pansize="10.000" mode="0" id="_background" ambientlevel="0.000" tiltsize="10.000" level="0.600" startmutedmobile="0" tilt="-1.000" nodechangekeep="1">
