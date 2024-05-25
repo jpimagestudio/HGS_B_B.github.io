@@ -2,9 +2,7 @@
 	"version": 1,
 	"type": "panorama",
 	"external": {
-		"js": [
-			"https://www.youtube.com/iframe_api"
-		],
+		"js": [],
 		"css": []
 	},
 	"skin": {
@@ -14,7 +12,7 @@
 	"player": {
 		"js": "pano2vr_player.js"
 	},
-	"creationdate": "2024-05-25T20:08:02.459Z",
+	"creationdate": "2024-05-25T20:15:29.780Z",
 	"configuration": "pano.xml",
 	"preview": {
 		"img": "preview.jpg",
