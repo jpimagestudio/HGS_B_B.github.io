@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="20035" appversion="7.0.12" start="node1">
+  <panorama id="node1">
+    <input levelingroll="0" height="2599" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4620" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="4620" height="2599" predecode="0" preload="0"/>
+      <level width="2310" height="1299" predecode="0" preload="0"/>
+      <level width="1155" height="649" predecode="0" preload="0"/>
+      <level width="577" height="324" predecode="0" preload="0"/>
+      <level width="288" height="162" predecode="1" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" tilt="90" fov="140" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata tags="海景照" customnodeid="" author="James Lee                      j62080@ms12.hinet.net" info="" heading="0" longitude="" source="" copyright="Copyright by James Lee." comment="" datetime="2023/2/12 6:43" description="窗外的景色，在清晨時分日出的照耀下顯得既寧靜又蓬勃。" latitude="" title="窗外海景照" nodeid="node1"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingroll="0" height="3229" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5741" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="5741" height="3229" predecode="0" preload="0"/>
+      <level width="2870" height="1614" predecode="0" preload="0"/>
+      <level width="1435" height="807" predecode="0" preload="0"/>
+      <level width="717" height="403" predecode="0" preload="0"/>
+      <level width="358" height="201" predecode="1" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" tilt="90" fov="140" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata tags="海景照" customnodeid="" author="James Lee                      j62080@ms12.hinet.net" info="" heading="0" longitude="" source="" copyright="Copyright by James Lee." comment="" datetime="2023/2/12 7:59" description="太陽出來後，海水的顏色漸漸變的更藍。民宿下去往東直行大約100公尺即可抵達北濱海提，北行至花蓮港區，南向至南濱公園。" latitude="" title="窗外海景照" nodeid="node2"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelingroll="0" height="2951" levelingpitch="0" flat="1" cylinder="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5246" levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" overlap="1">
+      <level width="5246" height="2951" predecode="0" preload="0"/>
+      <level width="2623" height="1475" predecode="0" preload="0"/>
+      <level width="1311" height="737" predecode="0" preload="0"/>
+      <level width="655" height="368" predecode="0" preload="0"/>
+      <level width="327" height="184" predecode="1" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" fov="100" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max fovstereographic="330" scaletofit="1" tilt="90" fov="140" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata tags="海景照" customnodeid="" author="James Lee                      j62080@ms12.hinet.net" info="" heading="0" longitude="" source="" copyright="Copyright by James Lee." comment="" datetime="2023/2/12 13:00" description="正午時分，太平洋依然顯得湛藍。南濱公園再往南行，可以抵達木瓜溪出海口，溪口的另一端就是77高地，可以俯瞰整個花蓮市與吉安鄉。" latitude="" title="窗外海景照" nodeid="node3"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label border="1" height="20" bordercolor="0x000000" textcolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" wordwrap="1" width="180" enabled="1" background="1" backgroundcolor="0xffffff" borderradius="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="40" zoomout="0" type="crossdissolve" zoomfov="40" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" enabled="1" delay="none" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0" zoomcentercursor="1" lockedmouse="0" rubberband="0" sensitivity="8" contextfullscreen="1" contextprojections="0" hideabout="0"/>
+  </panorama>
+  <masternode>
+    <userdata author="" copyright="" comment="" description="往窗外看出去的太平洋" title="民宿海景" tags=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
