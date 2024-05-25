@@ -6,7 +6,7 @@
       <level width="1187" predecode="0" preload="0" height="1187"/>
       <level width="593" predecode="0" preload="0" height="593"/>
       <level width="296" predecode="1" preload="1" height="296"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="-102.445" fovmode="2">
       <start pan="-59.63" projection="4" tilt="-2.57" fov="106.66"/>
@@ -36,7 +36,7 @@
       <level width="1196" predecode="0" preload="0" height="1196"/>
       <level width="598" predecode="0" preload="0" height="598"/>
       <level width="299" predecode="1" preload="1" height="299"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="44.3838" fovmode="2">
       <start pan="95.97" projection="4" tilt="1.67" fov="107.79"/>
@@ -67,7 +67,7 @@
       <level width="1193" predecode="0" preload="0" height="1193"/>
       <level width="596" predecode="0" preload="0" height="596"/>
       <level width="298" predecode="1" preload="1" height="298"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="36.5302" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -99,7 +99,7 @@
       <level width="1188" predecode="0" preload="0" height="1188"/>
       <level width="594" predecode="0" preload="0" height="594"/>
       <level width="297" predecode="1" preload="1" height="297"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="-53.1327" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -131,7 +131,7 @@
       <level width="1187" predecode="0" preload="0" height="1187"/>
       <level width="593" predecode="0" preload="0" height="593"/>
       <level width="296" predecode="1" preload="1" height="296"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="121.525" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -162,7 +162,7 @@
       <level width="1189" predecode="0" preload="0" height="1189"/>
       <level width="594" predecode="0" preload="0" height="594"/>
       <level width="297" predecode="1" preload="1" height="297"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="-170.966" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -199,7 +199,7 @@
       <level width="1189" predecode="0" preload="0" height="1189"/>
       <level width="594" predecode="0" preload="0" height="594"/>
       <level width="297" predecode="1" preload="1" height="297"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="-24.7046" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -232,7 +232,7 @@
       <level width="1188" predecode="0" preload="0" height="1188"/>
       <level width="594" predecode="0" preload="0" height="594"/>
       <level width="297" predecode="1" preload="1" height="297"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="-47.5533" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -268,7 +268,7 @@
       <level width="1187" predecode="0" preload="0" height="1187"/>
       <level width="593" predecode="0" preload="0" height="593"/>
       <level width="296" predecode="1" preload="1" height="296"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="126.126" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -300,7 +300,7 @@
       <level width="1187" predecode="0" preload="0" height="1187"/>
       <level width="593" predecode="0" preload="0" height="593"/>
       <level width="296" predecode="1" preload="1" height="296"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="126.79" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -330,7 +330,7 @@
       <level width="1184" predecode="0" preload="0" height="1184"/>
       <level width="592" predecode="0" preload="0" height="592"/>
       <level width="296" predecode="1" preload="1" height="296"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="121.278" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -359,7 +359,7 @@
       <level width="1876" predecode="0" preload="0" height="1876"/>
       <level width="938" predecode="0" preload="0" height="938"/>
       <level width="469" predecode="1" preload="1" height="469"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="-36.2393" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -388,7 +388,7 @@
       <level width="1188" predecode="0" preload="0" height="1188"/>
       <level width="594" predecode="0" preload="0" height="594"/>
       <level width="297" predecode="1" preload="1" height="297"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="-55.419" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -402,11 +402,11 @@
       <polystyle handcursor="1" backgroundalpha="0.25098" mode="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
       <hotspot pan="-13.31" distance="2.12794" id="Point01" url="{node12}" title="視聽室餐廳" skinid="ht_node" tilt="-9.11" description="" target="$fwd"/>
       <hotspot pan="-66.17" distance="8.03176" id="Point02" url="{node16}" title="中廊" skinid="ht_node" tilt="1.02" description="" target="$fwd"/>
-      <hotspot pan="-176.6" title="" skinid="ht_gallery" tilt="9.44" id="Point03" description="gallery1_output" url="" target="_blank"/>
       <hotspot pan="-113.16" title="天貓精靈" skinid="ht_info" tilt="-10.07" id="Point04" description="視聽娛樂室提供語音服務內容如下&#xa; ＊ 語音命令請提供完整命令，例如：空調 （打開 / 關閉)等等。&#xa;視聽娛樂室設備名稱：&#xa;1.空調  2.小空調  3.落地窗簾  4.大窗簾  5.灯  6.廁所燈  7.餐桌灯  8.星空灯  9.隱藏燈&#xa;&#xa;請使用語音「天貓精靈」喚醒語音助理，待語音助理回應「我在，你說」，接著給予指令。請務必等待語音助理回應後再下達指令。&#xa;&#xa;例如想要射打開房間內的燈，請先說出「天貓精靈」，待語音助理回應「我在，你說」後再說出：「打開落地窗簾」，語音助理會將落地窗的窗簾打開。&#xa;&#xa;組合式口令共兩個:&#xa;1.我要看電影(系統自動關閉所有大燈打開星空頂燈)&#xa;2.電影結束了(系統自動關閉星空頂燈打開大燈)" url="" target=""/>
       <hotspot pan="-44.86" title="點歌機操作" skinid="ht_video_youtube" tilt="-18.75" id="Point05" description="" url="OsjovxfWeoM" target=""/>
       <hotspot pan="-32.44" title="Switch操作" skinid="ht_video_youtube" tilt="-8.39" id="Point06" description="" url="0xIaQzduchw" target=""/>
       <hotspot pan="-5.95" title="投影機與節目觀賞操作" skinid="ht_video_youtube" tilt="23.9" id="Point07" description="" url="" target=""/>
+      <hotspot pan="-176.26" title="" skinid="ht_gallery" tilt="10.09" id="Point03" description="Gallery1_output" url="" target="_blank"/>
     </hotspots>
     <media>
       <sound pan="-1.000" loop="0" field="90.000" pansize="10.000" mode="0" id="_background" ambientlevel="0.000" tiltsize="10.000" level="0.600" startmutedmobile="0" tilt="-1.000" nodechangekeep="1">
@@ -423,7 +423,7 @@
       <level width="1187" predecode="0" preload="0" height="1187"/>
       <level width="593" predecode="0" preload="0" height="593"/>
       <level width="296" predecode="1" preload="1" height="296"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="-138.854" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -457,7 +457,7 @@
       <level width="1206" predecode="0" preload="0" height="1206"/>
       <level width="603" predecode="0" preload="0" height="603"/>
       <level width="301" predecode="1" preload="1" height="301"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="-48.1363" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
@@ -486,7 +486,7 @@
       <level width="1187" predecode="0" preload="0" height="1187"/>
       <level width="593" predecode="0" preload="0" height="593"/>
       <level width="296" predecode="1" preload="1" height="296"/>
-      <preview color="0x808080" strip="1"/>
+      <preview color="0x000000" strip="1"/>
     </input>
     <view pannorth="-55.4119" fovmode="2">
       <start pan="180" projection="4" tilt="0" fov="100"/>
