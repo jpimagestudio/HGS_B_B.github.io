@@ -1,541 +1,542 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.0.12" start="node4" apprev="20035">
+<tour start="node4" apprev="20035" appversion="7.0.12">
   <panorama id="node4">
-    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2375" height="2375" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2375" predecode="0" width="2375" preload="0"/>
-      <level height="1187" predecode="0" width="1187" preload="0"/>
-      <level height="593" predecode="0" width="593" preload="0"/>
-      <level height="296" predecode="1" width="296" preload="1"/>
+    <input width="2375" height="2375" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2375" height="2375" predecode="0" preload="0"/>
+      <level width="1187" height="1187" predecode="0" preload="0"/>
+      <level width="593" height="593" predecode="0" preload="0"/>
+      <level width="296" height="296" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="-102.445" fovmode="2">
       <start projection="4" tilt="-2.57" fov="106.66" pan="-59.63"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="民宿外觀" author="James Lee" info="" copyright="jp-image.studio" description="房客專屬停車位在民宿內。&#xa;左邊門禁需使用門禁手環開關捲門。&#xa;右側剝皮辣椒門市櫃台辦理入住/退房。" comment="" heading="-102.445" datetime="2023/2/12 11:52" tags="1F戶外" nodeid="node4" longitude="121.61389142" customnodeid="" latitude="23.97547082" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node3}" skinid="ht_node" id="Point01" tilt="1.16" title="民宿門禁" pan="-37.1" description="" target="$fwd"/>
-      <hotspot url="" skinid="ht_info" id="info1" tilt="2.27" title="住客登記處" pan="-96.24" description="住客須由此處櫃檯登記入住/退房，領取/繳回門禁手環。&#xa;" target=""/>
-      <polyhotspot url="" id="Poly01" title="民宿入口" description="" target="_blank">
+    <userdata source="" info="" copyright="jp-image.studio" tags="1F戶外" nodeid="node4" longitude="121.61389142" heading="-102.445" title="民宿外觀" author="James Lee" latitude="23.97547082" customnodeid="" description="房客專屬停車位在民宿內。&#xa;左邊門禁需使用門禁手環開關捲門。&#xa;右側剝皮辣椒門市櫃台辦理入住/退房。" datetime="2023/2/12 11:52" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="民宿門禁" skinid="ht_node" tilt="1.16" id="Point01" url="{node3}" pan="-37.1" description="" target="$fwd"/>
+      <hotspot title="住客登記處" skinid="ht_info" tilt="2.27" id="info1" url="" pan="-96.24" description="住客須由此處櫃檯登記入住/退房，領取/繳回門禁手環。&#xa;" target=""/>
+      <polyhotspot title="民宿入口" url="" id="Poly01" description="" target="_blank">
         <polystring>-28.7/10.38|-45.46/11.04|-45.47/-4.21|-45.28/-8.34|-29.22/-7.66|-25.36/-5.51|-25.47/0.94|-28.6/0.76</polystring>
       </polyhotspot>
-      <polyhotspot url="" id="Poly02" title="入住登記處" description="" target="_blank">
+      <polyhotspot title="入住登記處" url="" id="Poly02" description="" target="_blank">
         <polystring>-75.01/12.02|-85.63/10.68|-87.14/11.15|-87.17/11.79|-96.26/10.01|-96.47/-4.35|-93.52/-4.44|-107.14/-5.69|-88.01/-8.86|-80.5/-5.28|-77.41/-3.57|-74.98/-3.19</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node3">
-    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2392" height="2392" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2392" predecode="0" width="2392" preload="0"/>
-      <level height="1196" predecode="0" width="1196" preload="0"/>
-      <level height="598" predecode="0" width="598" preload="0"/>
-      <level height="299" predecode="1" width="299" preload="1"/>
+    <input width="2392" height="2392" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2392" height="2392" predecode="0" preload="0"/>
+      <level width="1196" height="1196" predecode="0" preload="0"/>
+      <level width="598" height="598" predecode="0" preload="0"/>
+      <level width="299" height="299" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="44.3838" fovmode="2">
       <start projection="4" tilt="1.67" fov="107.79" pan="95.97"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="民宿門禁" author="James Lee" info="" copyright="jp-image.studio" description="右側門禁需使用住戶手環開關捲門。" comment="" heading="44.3838" datetime="2023/2/12 14:16" tags="1F戶外" nodeid="node3" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node1}" skinid="ht_node" id="Point01" tilt="2.64" title="車庫走道" pan="-262.59" description="" target="$fwd"/>
-      <hotspot url="{node4}" skinid="ht_node" id="Point02" tilt="-1.08" title="民宿外觀" pan="-69.98" description="" target="$fwd"/>
-      <hotspot url="images/1F_security.jpg" skinid="ht_image_text" id="Point03" tilt="4.87" title="入口門禁" pan="-313.78" description="請使用手環感應門禁裝置，請將手環貼近紅色條燈處感應。" target=""/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="1F戶外" nodeid="node3" longitude="" heading="44.3838" title="民宿門禁" author="James Lee" latitude="" customnodeid="" description="右側門禁需使用住戶手環開關捲門。" datetime="2023/2/12 14:16" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="車庫走道" skinid="ht_node" tilt="2.64" id="Point01" url="{node1}" pan="-262.59" description="" target="$fwd"/>
+      <hotspot title="民宿外觀" skinid="ht_node" tilt="-1.08" id="Point02" url="{node4}" pan="-69.98" description="" target="$fwd"/>
+      <hotspot title="入口門禁" skinid="ht_image_text" tilt="4.87" id="Point03" url="images/1F_security.jpg" pan="-313.78" description="請使用手環感應門禁裝置，請將手環貼近紅色條燈處感應。" target=""/>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node1">
-    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2387" height="2387" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2387" predecode="0" width="2387" preload="0"/>
-      <level height="1193" predecode="0" width="1193" preload="0"/>
-      <level height="596" predecode="0" width="596" preload="0"/>
-      <level height="298" predecode="1" width="298" preload="1"/>
+    <input width="2387" height="2387" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2387" height="2387" predecode="0" preload="0"/>
+      <level width="1193" height="1193" predecode="0" preload="0"/>
+      <level width="596" height="596" predecode="0" preload="0"/>
+      <level width="298" height="298" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="36.5302" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="車庫走道" author="James Lee" info="" copyright="jp-image.studio" description="可提供住戶停車，電動車亦可免費提供入住客戶使用。" comment="" heading="36.5302" datetime="2023/2/12 10:41" tags="1F" nodeid="node1" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node2}" skinid="ht_node" id="Point01" tilt="0.18" title="電梯口" pan="-358.84" description="" target="$fwd"/>
-      <hotspot url="images/image.jpg" skinid="ht_image_text" id="E-car" tilt="4.2" title="電動機車" pan="-269.52" description="提供給住客使用。騎乘時請遵守交通規則並確實戴妥安全帽。" target=""/>
-      <hotspot url="{node3}" skinid="ht_node" id="Point02" tilt="0.51" title="民宿門禁" pan="-90.15" description="" target="$fwd"/>
-      <hotspot url="" skinid="ht_info_toilet" id="Point03" tilt="16.59" title="一樓廁所" pan="-318.05" description="" target=""/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="1F" nodeid="node1" longitude="" heading="36.5302" title="車庫走道" author="James Lee" latitude="" customnodeid="" description="可提供住戶停車，電動車亦可免費提供入住客戶使用。" datetime="2023/2/12 10:41" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="電梯口" skinid="ht_node" tilt="0.18" id="Point01" url="{node2}" pan="-358.84" description="" target="$fwd"/>
+      <hotspot title="電動機車" skinid="ht_image_text" tilt="4.2" id="E-car" url="images/image.jpg" pan="-269.52" description="提供給住客使用。騎乘時請遵守交通規則並確實戴妥安全帽。" target=""/>
+      <hotspot title="民宿門禁" skinid="ht_node" tilt="0.51" id="Point02" url="{node3}" pan="-90.15" description="" target="$fwd"/>
+      <hotspot title="一樓廁所" skinid="ht_info_toilet" tilt="16.59" id="Point03" url="" pan="-318.05" description="" target=""/>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node2">
-    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2377" height="2377" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2377" predecode="0" width="2377" preload="0"/>
-      <level height="1188" predecode="0" width="1188" preload="0"/>
-      <level height="594" predecode="0" width="594" preload="0"/>
-      <level height="297" predecode="1" width="297" preload="1"/>
+    <input width="2377" height="2377" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2377" height="2377" predecode="0" preload="0"/>
+      <level width="1188" height="1188" predecode="0" preload="0"/>
+      <level width="594" height="594" predecode="0" preload="0"/>
+      <level width="297" height="297" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="-53.1327" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="電梯口" author="James Lee" info="" copyright="jp-image.studio" description="需使用手環解鎖門禁才能操作電梯。" comment="" heading="-53.1327" datetime="2023/2/12 11:03" tags="1F" nodeid="node2" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node16}" skinid="ht_node" id="Point01" tilt="-0.6" title="中廊" pan="-357.96" description="" target="-6.5/-0.8/100.0"/>
-      <polyhotspot url="" id="Poly01" title="辦公區，請勿進入" description="" target="_blank">
+    <userdata source="" info="" copyright="jp-image.studio" tags="1F" nodeid="node2" longitude="" heading="-53.1327" title="電梯口" author="James Lee" latitude="" customnodeid="" description="需使用手環解鎖門禁才能操作電梯。" datetime="2023/2/12 11:03" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="中廊" skinid="ht_node" tilt="-0.6" id="Point01" url="{node16}" pan="-357.96" description="" target="-6.5/-0.8/100.0"/>
+      <hotspot title="車庫走道" skinid="ht_node" tilt="-0.93" id="Point02" url="{node1}" pan="-270.12" description="" target="$fwd"/>
+      <polyhotspot title="辦公區，請勿進入" url="" id="Poly01" description="" target="_blank">
         <polystring>-180.39/38.44|-180.76/-44.33|-142.15/-37.75|-141.92/32.01</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <video startmutedmobile="0" field="90.000" width="1920" rotz="-0.836" pansize="10.000" roty="3.534" hidepinned="0" id="Element01" height="1080" mode="3" pan="3.725" popbackmode="2" tiltsize="10.000" loop="0" tilt="13.864" ambientlevel="0.000" handcursor="1" nodechangekeep="0" level="1.000" rotx="13.835" stretch="1.184" fov="26.509" clickmode="1">
+      <video width="1920" startmutedmobile="0" popbackmode="1" level="1.000" fov="26.510" id="Element01" loop="0" rotz="-0.840" field="90.000" handcursor="1" mode="3" tilt="13.860" pan="3.720" ambientlevel="0.000" pansize="10.000" roty="3.530" height="1080" tiltsize="10.000" rotx="13.840" stretch="1.184" hidepinned="0" clickmode="1" nodechangekeep="0">
         <source url="media/video.mp4"/>
       </video>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node16">
-    <input leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2374" height="2374" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2374" predecode="0" width="2374" preload="0"/>
-      <level height="1187" predecode="0" width="1187" preload="0"/>
-      <level height="593" predecode="0" width="593" preload="0"/>
-      <level height="296" predecode="1" width="296" preload="1"/>
+    <input width="2374" height="2374" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2374" height="2374" predecode="0" preload="0"/>
+      <level width="1187" height="1187" predecode="0" preload="0"/>
+      <level width="593" height="593" predecode="0" preload="0"/>
+      <level width="296" height="296" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="121.525" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="中廊" author="James Lee" info="" copyright="jp-image.studio" description="健身器材可供入住客戶使用" comment="" heading="121.525" datetime="2023/2/12 9:46" tags="2F中廊" nodeid="node16" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node8}" skinid="ht_node" id="Point01" tilt="-0.93" title="客房主臥1" pan="-284.29" description="" target="$fwd"/>
-      <hotspot url="{node13}" skinid="ht_node" id="Point02" tilt="-0.92" title="視聽室劇院" pan="-97.05" description="" target="$fwd"/>
-      <hotspot url="{node2}" skinid="ht_node" id="Point03" tilt="-2.78" title="電梯口" pan="-221.33" description="" target="$fwd"/>
-      <hotspot url="0QHHHUeZjaI" skinid="ht_video_youtube" id="Point04" tilt="-1.77" title="客房門禁鎖操作" pan="-297.68" description="" target=""/>
-      <polyhotspot url="" id="Poly01" title="客房" description="" target="_blank">
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F中廊" nodeid="node16" longitude="" heading="121.525" title="中廊" author="James Lee" latitude="" customnodeid="" description="健身器材可供入住客戶使用" datetime="2023/2/12 9:46" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="客房主臥1" skinid="ht_node" tilt="-0.93" id="Point01" url="{node8}" pan="-284.29" description="" target="$fwd"/>
+      <hotspot title="視聽室劇院" skinid="ht_node" tilt="-0.92" id="Point02" url="{node13}" pan="-97.05" description="" target="$fwd"/>
+      <hotspot title="電梯口" skinid="ht_node" tilt="-2.78" id="Point03" url="{node2}" pan="-221.33" description="" target="$fwd"/>
+      <hotspot title="客房門禁鎖操作" skinid="ht_video_youtube" tilt="-1.77" id="Point04" url="0QHHHUeZjaI" pan="-297.68" description="" target=""/>
+      <polyhotspot title="客房" url="" id="Poly01" description="" target="_blank">
         <polystring>-273.64/20.93|-295.24/19.96|-295.46/-24.5|-273.66/-25.72</polystring>
       </polyhotspot>
-      <polyhotspot url="" id="Poly02" title="影視廳" description="" target="_blank">
+      <polyhotspot title="影視廳" url="" id="Poly02" description="" target="_blank">
         <polystring>-88.84/15.51|-105.06/15.64|-104.84/-20.01|-88.76/-19.94</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node8">
-    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2379" height="2379" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2379" predecode="0" width="2379" preload="0"/>
-      <level height="1189" predecode="0" width="1189" preload="0"/>
-      <level height="594" predecode="0" width="594" preload="0"/>
-      <level height="297" predecode="1" width="297" preload="1"/>
+    <input width="2379" height="2379" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2379" height="2379" predecode="0" preload="0"/>
+      <level width="1189" height="1189" predecode="0" preload="0"/>
+      <level width="594" height="594" predecode="0" preload="0"/>
+      <level width="297" height="297" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="-170.966" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="客房主臥1" author="James Lee" info="" copyright="jp-image.studio" description="客房設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;房間設施提供：&#xa;❤ 分離式冷氣&#xa;❤ 液晶電視 / 有線頻道&#xa;❤ 冰箱 / 盥洗用具&#xa;❤ 獨立筒床墊 / 電熱水瓶&#xa;❤ 衛浴設備 / 吹風機&#xa;❤ 茶包 / 咖啡包 / 礦泉水&#xa;" comment="" heading="-170.966" datetime="2023/2/12 12:37" tags="2F客房" nodeid="node8" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node9}" skinid="ht_node" id="Point01" tilt="-0.45" title="客房主臥2" pan="-277.74" description="" target="$fwd"/>
-      <hotspot url="{node10}" skinid="ht_node" id="Point02" tilt="-1.08" title="客房小臥室" pan="-101.44" description="" target="$fwd"/>
-      <hotspot url="{node16}" skinid="ht_node" id="Point03" tilt="0.93" title="中廊" pan="-52.53" description="" target="$fwd"/>
-      <hotspot url="" skinid="ht_info_wireless" id="Point05" tilt="-27.45" title="無線充電" pan="-358.2" description="手機無線充電板，請將具有無線充電功能的手機放置其上就可以進行充電。" target=""/>
-      <hotspot url="ZOqjmBTx_cc" skinid="ht_video_youtube" id="Point06" tilt="-19.27" title="咖啡機操作" pan="-142.3" description="介紹如何使用咖啡機沖泡一杯好喝的咖啡。" target=""/>
-      <hotspot url="" skinid="ht_info" id="Point04" tilt="-7.65" title="天貓精靈使用說明" pan="-144.38" description="語音助理，提供語音服務內容如下：&#xa;&#xa;房間內設備名稱 :&#xa;1.燈  2.間接燈  3.陽台燈  4.床頭燈  5.窗簾  6.空調  &#xa;&#xa;請使用語音「天貓精靈」喚醒語音助理，待語音助理回應「我在，你說」時，接著給予指令。請務必等待語音助理回應後再下達指令。&#xa;&#xa;例如想要打開房間內的燈，請先說出「天貓精靈」，待語音助理回應「我在，你說」後再說出：「打開燈」，語音助理會將房內燈光打開。&#xa;&#xa;組合式口令共4個:&#xa;1.我回來了(開燈開空調)&#xa;2.我要外出(關閉所有開關及空調)&#xa;3.我要睡覺(關閉所有電燈開關播放舒眠音樂)&#xa;4.明天早上 ? 點叫我起床" target=""/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F客房" nodeid="node8" longitude="" heading="-170.966" title="客房主臥1" author="James Lee" latitude="" customnodeid="" description="客房設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;房間設施提供：&#xa;❤ 分離式冷氣&#xa;❤ 液晶電視 / 有線頻道&#xa;❤ 冰箱 / 盥洗用具&#xa;❤ 獨立筒床墊 / 電熱水瓶&#xa;❤ 衛浴設備 / 吹風機&#xa;❤ 茶包 / 咖啡包 / 礦泉水&#xa;" datetime="2023/2/12 12:37" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="客房主臥2" skinid="ht_node" tilt="-0.45" id="Point01" url="{node9}" pan="-277.74" description="" target="$fwd"/>
+      <hotspot title="客房小臥室" skinid="ht_node" tilt="-1.08" id="Point02" url="{node10}" pan="-101.44" description="" target="$fwd"/>
+      <hotspot title="中廊" skinid="ht_node" tilt="0.93" id="Point03" url="{node16}" pan="-52.53" description="" target="$fwd"/>
+      <hotspot title="無線充電" skinid="ht_info_wireless" tilt="-27.45" id="Point05" url="" pan="-358.2" description="手機無線充電板，請將具有無線充電功能的手機放置其上就可以進行充電。" target=""/>
+      <hotspot title="咖啡機操作" skinid="ht_video_youtube" tilt="-19.27" id="Point06" url="ZOqjmBTx_cc" pan="-142.3" description="介紹如何使用咖啡機沖泡一杯好喝的咖啡。" target=""/>
+      <hotspot title="天貓精靈使用說明" skinid="ht_info" tilt="-7.65" id="Point04" url="" pan="-144.38" description="語音助理，提供語音服務內容如下：&#xa;&#xa;房間內設備名稱 :&#xa;1.燈  2.間接燈  3.陽台燈  4.床頭燈  5.窗簾  6.空調  &#xa;&#xa;請使用語音「天貓精靈」喚醒語音助理，待語音助理回應「我在，你說」時，接著給予指令。請務必等待語音助理回應後再下達指令。&#xa;&#xa;例如想要打開房間內的燈，請先說出「天貓精靈」，待語音助理回應「我在，你說」後再說出：「打開燈」，語音助理會將房內燈光打開。&#xa;&#xa;組合式口令共4個:&#xa;1.我回來了(開燈開空調)&#xa;2.我要外出(關閉所有開關及空調)&#xa;3.我要睡覺(關閉所有電燈開關播放舒眠音樂)&#xa;4.明天早上 ? 點叫我起床" target=""/>
     </hotspots>
     <media>
-      <video startmutedmobile="1" field="90.000" width="1920" rotz="0.020" pansize="10.000" roty="-46.180" hidepinned="0" id="Element01" height="1080" mode="3" pan="106.810" popbackmode="2" tiltsize="10.000" loop="0" tilt="0.510" ambientlevel="0.000" handcursor="1" nodechangekeep="0" level="1.000" rotx="-0.090" stretch="0.980" fov="34.000" clickmode="1">
+      <video width="1920" startmutedmobile="1" popbackmode="1" level="1.000" fov="34.000" id="Element01" loop="0" rotz="0.020" field="90.000" handcursor="1" mode="3" tilt="0.510" pan="106.810" ambientlevel="0.000" pansize="10.000" roty="-46.180" height="1080" tiltsize="10.000" rotx="-0.090" stretch="0.980" hidepinned="0" clickmode="1" nodechangekeep="0">
         <source url="media/video-13.mp4"/>
       </video>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node9">
-    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2378" height="2378" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2378" predecode="0" width="2378" preload="0"/>
-      <level height="1189" predecode="0" width="1189" preload="0"/>
-      <level height="594" predecode="0" width="594" preload="0"/>
-      <level height="297" predecode="1" width="297" preload="1"/>
+    <input width="2378" height="2378" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2378" height="2378" predecode="0" preload="0"/>
+      <level width="1189" height="1189" predecode="0" preload="0"/>
+      <level width="594" height="594" predecode="0" preload="0"/>
+      <level width="297" height="297" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="-24.7046" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="客房主臥2" author="James Lee" info="" copyright="jp-image.studio" description="客房設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;房間設施提供：&#xa;❤ 分離式冷氣&#xa;❤ 液晶電視 / 有線頻道&#xa;❤ 冰箱 / 盥洗用具&#xa;❤ 獨立筒床墊 / 電熱水瓶&#xa;❤ 衛浴設備 / 吹風機&#xa;❤ 茶包 / 咖啡包 / 礦泉水&#xa;" comment="" heading="-24.7046" datetime="2023/2/12 13:01" tags="2F客房" nodeid="node9" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node8}" skinid="ht_node" id="Point01" tilt="-2.76" title="客房主臥1" pan="-315.09" description="" target="$fwd"/>
-      <hotspot url="{node11}" skinid="ht_node" id="Point02" tilt="-2.58" title="客房陽台" pan="-158.56" description="" target="$fwd"/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F客房" nodeid="node9" longitude="" heading="-24.7046" title="客房主臥2" author="James Lee" latitude="" customnodeid="" description="客房設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;房間設施提供：&#xa;❤ 分離式冷氣&#xa;❤ 液晶電視 / 有線頻道&#xa;❤ 冰箱 / 盥洗用具&#xa;❤ 獨立筒床墊 / 電熱水瓶&#xa;❤ 衛浴設備 / 吹風機&#xa;❤ 茶包 / 咖啡包 / 礦泉水&#xa;" datetime="2023/2/12 13:01" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="客房主臥1" skinid="ht_node" tilt="-2.76" id="Point01" url="{node8}" pan="-315.09" description="" target="$fwd"/>
+      <hotspot title="客房陽台" skinid="ht_node" tilt="-2.58" id="Point02" url="{node11}" pan="-158.56" description="" target="$fwd"/>
     </hotspots>
     <media>
-      <video startmutedmobile="1" field="90.000" width="1920" rotz="-0.890" pansize="10.000" roty="53.040" hidepinned="0" id="Element01" height="1080" mode="3" pan="-10.630" popbackmode="2" tiltsize="10.000" loop="1" tilt="0.740" ambientlevel="0.000" handcursor="1" nodechangekeep="0" level="1.000" rotx="0.630" stretch="1.011" fov="51.940" clickmode="1">
+      <video width="1920" startmutedmobile="1" popbackmode="1" level="1.000" fov="51.940" id="Element01" loop="1" rotz="-0.890" field="90.000" handcursor="1" mode="3" tilt="0.740" pan="-10.630" ambientlevel="0.000" pansize="10.000" roty="53.040" height="1080" tiltsize="10.000" rotx="0.630" stretch="1.011" hidepinned="0" clickmode="1" nodechangekeep="0">
         <source url="media/video-13.mp4"/>
       </video>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node10">
-    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2376" height="2376" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2376" predecode="0" width="2376" preload="0"/>
-      <level height="1188" predecode="0" width="1188" preload="0"/>
-      <level height="594" predecode="0" width="594" preload="0"/>
-      <level height="297" predecode="1" width="297" preload="1"/>
+    <input width="2376" height="2376" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2376" height="2376" predecode="0" preload="0"/>
+      <level width="1188" height="1188" predecode="0" preload="0"/>
+      <level width="594" height="594" predecode="0" preload="0"/>
+      <level width="297" height="297" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="-47.5533" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="客房小臥室" author="James Lee" info="" copyright="jp-image.studio" description="客房設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;房間設施提供：&#xa;❤ 分離式冷氣&#xa;❤ 液晶電視 / 有線頻道&#xa;❤ 冰箱 / 盥洗用具&#xa;❤ 獨立筒床墊 / 電熱水瓶&#xa;❤ 衛浴設備 / 吹風機&#xa;❤ 茶包 / 咖啡包 / 礦泉水&#xa;" comment="" heading="-47.5533" datetime="2023/2/12 7:55" tags="2F客房" nodeid="node10" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node6}" skinid="ht_node" id="Point01" tilt="-1.3" title="客房廁所" pan="-83.29" description="" target="$fwd"/>
-      <hotspot url="{node8}" skinid="ht_node" id="Point02" tilt="-3.48" title="客房主臥1" pan="-179.18" description="" target="$fwd"/>
-      <hotspot url="" skinid="ht_info" id="Point03" tilt="0.73" title="加床寢具放置區" pan="-277.36" description="有申請加床的房客，可在此找到備品使用。" target=""/>
-      <hotspot url="" skinid="ht_info" id="Point04" tilt="-21.2" title="天貓精靈操作" pan="-359.3" description="語音助理，提供語音服務內容如下：&#xa;&#xa;小客廳內設備名稱 :&#xa;1.客廳燈  2.浴室燈  3.空調&#xa;&#xa;請使用語音「天貓精靈」喚醒語音助理，待語音助理回應「我在，你說」，接著給予指令。請務必等待語音助理回應後再下達指令。&#xa;&#xa;例如想要射打開房間內的燈，請先說出「天貓精靈」，待語音助理回應「我在，你說」後再說出：「客廳燈」，語音助理會將客廳內燈光打開。" target=""/>
-      <hotspot url="9ZL-wsSmgLs" skinid="ht_video_youtube" id="Point05" tilt="-4.29" title="沙發床展收操作說明" pan="-32.51" description="沙發床，展收操作說明" target=""/>
-      <polyhotspot url="" id="Poly01" title="加床客戶寢具備品" description="有申請加床的住客，可在此找到備品使用。" target="_blank">
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F客房" nodeid="node10" longitude="" heading="-47.5533" title="客房小臥室" author="James Lee" latitude="" customnodeid="" description="客房設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;房間設施提供：&#xa;❤ 分離式冷氣&#xa;❤ 液晶電視 / 有線頻道&#xa;❤ 冰箱 / 盥洗用具&#xa;❤ 獨立筒床墊 / 電熱水瓶&#xa;❤ 衛浴設備 / 吹風機&#xa;❤ 茶包 / 咖啡包 / 礦泉水&#xa;" datetime="2023/2/12 7:55" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="客房廁所" skinid="ht_node" tilt="-1.3" id="Point01" url="{node6}" pan="-83.29" description="" target="$fwd"/>
+      <hotspot title="客房主臥1" skinid="ht_node" tilt="-3.48" id="Point02" url="{node8}" pan="-179.18" description="" target="$fwd"/>
+      <hotspot title="加床寢具放置區" skinid="ht_info" tilt="0.73" id="Point03" url="" pan="-277.36" description="有申請加床的房客，可在此找到備品使用。" target=""/>
+      <hotspot title="天貓精靈操作" skinid="ht_info" tilt="-21.2" id="Point04" url="" pan="-359.3" description="語音助理，提供語音服務內容如下：&#xa;&#xa;小客廳內設備名稱 :&#xa;1.客廳燈  2.浴室燈  3.空調&#xa;&#xa;請使用語音「天貓精靈」喚醒語音助理，待語音助理回應「我在，你說」，接著給予指令。請務必等待語音助理回應後再下達指令。&#xa;&#xa;例如想要射打開房間內的燈，請先說出「天貓精靈」，待語音助理回應「我在，你說」後再說出：「客廳燈」，語音助理會將客廳內燈光打開。" target=""/>
+      <hotspot title="沙發床展收操作說明" skinid="ht_video_youtube" tilt="-4.29" id="Point05" url="9ZL-wsSmgLs" pan="-32.51" description="沙發床，展收操作說明" target=""/>
+      <polyhotspot title="加床客戶寢具備品" url="" id="Poly01" description="有申請加床的住客，可在此找到備品使用。" target="_blank">
         <polystring>-255.41/12.28|-260.24/13|-265.56/12.66|-265.53/14.22|-270.99/14.53|-276.92/14.04|-283.26/13.21|-285.89/12.78|-288.24/12.64|-292.58/12.61|-295.75/12.31|-298.6/11.87|-300.7/11.71|-299.8/8.85|-299.63/5.51|-299.68/1.34|-299.78/-2.25|-300.91/-5.53|-301.89/-8.06|-301.85/-9.22|-302.67/-9.29|-303.12/-10.75|-255.17/-13.76|-255.4/-12.71|-256.41/-11.32|-257.92/-9.82|-257.49/-8.61|-258.01/-6.12|-258.15/-3.61|-258.64/-0.81|-259.17/2.38|-259.27/4.74|-259.48/6.7|-259.29/8.58|-259.15/9.29|-257.53/9.62|-256.13/10.49|-255.65/11.61</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <video startmutedmobile="1" field="90.000" width="1920" rotz="4.270" pansize="10.000" roty="53.640" hidepinned="0" id="Element01" height="1080" mode="3" pan="-119.090" popbackmode="2" tiltsize="10.000" loop="0" tilt="-3.010" ambientlevel="0.000" handcursor="1" nodechangekeep="0" level="1.000" rotx="-5.750" stretch="1.021" fov="40.170" clickmode="1">
+      <video width="1920" startmutedmobile="1" popbackmode="1" level="1.000" fov="40.170" id="Element01" loop="0" rotz="4.270" field="90.000" handcursor="1" mode="3" tilt="-3.010" pan="-119.090" ambientlevel="0.000" pansize="10.000" roty="53.640" height="1080" tiltsize="10.000" rotx="-5.750" stretch="1.021" hidepinned="0" clickmode="1" nodechangekeep="0">
         <source url="media/video-24.mp4"/>
       </video>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node6">
-    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2375" height="2375" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2375" predecode="0" width="2375" preload="0"/>
-      <level height="1187" predecode="0" width="1187" preload="0"/>
-      <level height="593" predecode="0" width="593" preload="0"/>
-      <level height="296" predecode="1" width="296" preload="1"/>
+    <input width="2375" height="2375" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2375" height="2375" predecode="0" preload="0"/>
+      <level width="1187" height="1187" predecode="0" preload="0"/>
+      <level width="593" height="593" predecode="0" preload="0"/>
+      <level width="296" height="296" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="126.126" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="客房廁所" author="James Lee" info="" copyright="jp-image.studio" description="客房設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;房間設施提供：&#xa;❤ 分離式冷氣&#xa;❤ 液晶電視 / 有線頻道&#xa;❤ 冰箱 / 盥洗用具&#xa;❤ 獨立筒床墊 / 電熱水瓶&#xa;❤ 衛浴設備 / 吹風機&#xa;❤ 茶包 / 咖啡包 / 礦泉水&#xa;" comment="" heading="126.126" datetime="2023/2/2 6:51" tags="2F客房" nodeid="node6" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node7}" skinid="ht_node" id="Point01" tilt="-3.53" title="客房衛浴" pan="-0.29" description="" target="$fwd"/>
-      <hotspot url="{node10}" skinid="ht_node" id="Point02" tilt="-1.91" title="客房小臥室" pan="-89.07" description="" target="$fwd"/>
-      <hotspot url="-IhbyamBj3I" skinid="ht_video_youtube" id="Point03" tilt="-13.55" title="免治馬桶操作" pan="-218.34" description="" target=""/>
-      <hotspot url="uRFWJjXy6JY" skinid="ht_video_youtube" id="Point04" tilt="3.07" title="溫控沐浴設備說明" pan="-334.84" description="" target=""/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F客房" nodeid="node6" longitude="" heading="126.126" title="客房廁所" author="James Lee" latitude="" customnodeid="" description="客房設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;房間設施提供：&#xa;❤ 分離式冷氣&#xa;❤ 液晶電視 / 有線頻道&#xa;❤ 冰箱 / 盥洗用具&#xa;❤ 獨立筒床墊 / 電熱水瓶&#xa;❤ 衛浴設備 / 吹風機&#xa;❤ 茶包 / 咖啡包 / 礦泉水&#xa;" datetime="2023/2/2 6:51" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="客房衛浴" skinid="ht_node" tilt="-3.53" id="Point01" url="{node7}" pan="-0.29" description="" target="$fwd"/>
+      <hotspot title="客房小臥室" skinid="ht_node" tilt="-1.91" id="Point02" url="{node10}" pan="-89.07" description="" target="$fwd"/>
+      <hotspot title="免治馬桶操作" skinid="ht_video_youtube" tilt="-13.55" id="Point03" url="-IhbyamBj3I" pan="-218.34" description="" target=""/>
+      <hotspot title="溫控沐浴設備說明" skinid="ht_video_youtube" tilt="3.07" id="Point04" url="uRFWJjXy6JY" pan="-334.84" description="" target=""/>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node7">
-    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2374" height="2374" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2374" predecode="0" width="2374" preload="0"/>
-      <level height="1187" predecode="0" width="1187" preload="0"/>
-      <level height="593" predecode="0" width="593" preload="0"/>
-      <level height="296" predecode="1" width="296" preload="1"/>
+    <input width="2374" height="2374" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2374" height="2374" predecode="0" preload="0"/>
+      <level width="1187" height="1187" predecode="0" preload="0"/>
+      <level width="593" height="593" predecode="0" preload="0"/>
+      <level width="296" height="296" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="126.79" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="客房衛浴" author="James Lee" info="" copyright="jp-image.studio" description="客房設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;房間設施提供：&#xa;❤ 分離式冷氣&#xa;❤ 液晶電視 / 有線頻道&#xa;❤ 冰箱 / 盥洗用具&#xa;❤ 獨立筒床墊 / 電熱水瓶&#xa;❤ 衛浴設備 / 吹風機&#xa;❤ 茶包 / 咖啡包 / 礦泉水&#xa;" comment="" heading="126.79" datetime="2023/2/2 7:19" tags="2F客房" nodeid="node7" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node6}" skinid="ht_node" id="Point01" tilt="-2.92" title="客房廁所" pan="-181.19" description="" target="$fwd"/>
-      <hotspot url="uRFWJjXy6JY" skinid="ht_video_youtube" id="Point02" tilt="1.52" title="溫控沐浴設備說明" pan="-209.72" description="" target=""/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F客房" nodeid="node7" longitude="" heading="126.79" title="客房衛浴" author="James Lee" latitude="" customnodeid="" description="客房設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;房間設施提供：&#xa;❤ 分離式冷氣&#xa;❤ 液晶電視 / 有線頻道&#xa;❤ 冰箱 / 盥洗用具&#xa;❤ 獨立筒床墊 / 電熱水瓶&#xa;❤ 衛浴設備 / 吹風機&#xa;❤ 茶包 / 咖啡包 / 礦泉水&#xa;" datetime="2023/2/2 7:19" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="客房廁所" skinid="ht_node" tilt="-2.92" id="Point01" url="{node6}" pan="-181.19" description="" target="$fwd"/>
+      <hotspot title="溫控沐浴設備說明" skinid="ht_video_youtube" tilt="1.52" id="Point02" url="uRFWJjXy6JY" pan="-209.72" description="" target=""/>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node11">
-    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2369" height="2369" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2369" predecode="0" width="2369" preload="0"/>
-      <level height="1184" predecode="0" width="1184" preload="0"/>
-      <level height="592" predecode="0" width="592" preload="0"/>
-      <level height="296" predecode="1" width="296" preload="1"/>
+    <input width="2369" height="2369" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2369" height="2369" predecode="0" preload="0"/>
+      <level width="1184" height="1184" predecode="0" preload="0"/>
+      <level width="592" height="592" predecode="0" preload="0"/>
+      <level width="296" height="296" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="121.278" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="客房陽台" author="James Lee" info="" copyright="jp-image.studio" description="遠方為花蓮港區，其沿岸為北濱海景步道，往北可達花蓮港親水區。往南走可達南濱公園與木瓜溪出海口。" comment="" heading="121.278" datetime="2023/2/12 6:56" tags="2F客房" nodeid="node11" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node5}" skinid="ht_node" id="Point01" tilt="35.05" title="民宿空景" pan="-0.09" description="" target="$fwd"/>
-      <hotspot url="{node9}" skinid="ht_node" id="Point02" tilt="-3.43" title="客房主臥2" pan="-203.97" description="" target="$fwd"/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F客房" nodeid="node11" longitude="" heading="121.278" title="客房陽台" author="James Lee" latitude="" customnodeid="" description="遠方為花蓮港區，其沿岸為北濱海景步道，往北可達花蓮港親水區。往南走可達南濱公園與木瓜溪出海口。" datetime="2023/2/12 6:56" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="民宿空景" skinid="ht_node" tilt="35.05" id="Point01" url="{node5}" pan="-0.09" description="" target="$fwd"/>
+      <hotspot title="客房主臥2" skinid="ht_node" tilt="-3.43" id="Point02" url="{node9}" pan="-203.97" description="" target="$fwd"/>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node5">
-    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1876" height="1876" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="1876" predecode="0" width="1876" preload="0"/>
-      <level height="938" predecode="0" width="938" preload="0"/>
-      <level height="469" predecode="1" width="469" preload="1"/>
+    <input width="1876" height="1876" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="1876" height="1876" predecode="0" preload="0"/>
+      <level width="938" height="938" predecode="0" preload="0"/>
+      <level width="469" height="469" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="-36.2393" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="民宿空景" author="James Lee" info="" copyright="jp-image.studio" description="" comment="" heading="-36.2393" datetime="2023:02:15 03:02:15" tags="1F戶外" nodeid="node5" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node11}" skinid="ht_node" id="Point01" tilt="-29.62" title="客房陽台" pan="-339.92" description="" target="$fwd"/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="1F戶外" nodeid="node5" longitude="" heading="-36.2393" title="民宿空景" author="James Lee" latitude="" customnodeid="" description="" datetime="2023:02:15 03:02:15" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="客房陽台" skinid="ht_node" tilt="-29.62" id="Point01" url="{node11}" pan="-339.92" description="" target="$fwd"/>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node13">
-    <input leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2377" height="2377" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2377" predecode="0" width="2377" preload="0"/>
-      <level height="1188" predecode="0" width="1188" preload="0"/>
-      <level height="594" predecode="0" width="594" preload="0"/>
-      <level height="297" predecode="1" width="297" preload="1"/>
+    <input width="2377" height="2377" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2377" height="2377" predecode="0" preload="0"/>
+      <level width="1188" height="1188" predecode="0" preload="0"/>
+      <level width="594" height="594" predecode="0" preload="0"/>
+      <level width="297" height="297" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="-55.419" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="視聽室劇院" author="James Lee" info="" copyright="jp-image.studio" description="視聽室設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;視聽室設施提供：&#xa;。卡拉OK伴唱機&#xa;。 Switch / 有線頻道&#xa;。大尺寸家庭劇院設施 / 冰箱 /&#xa;。茶包 / 咖啡包 / 礦泉水 / 零嘴 / 紅酒&#xa;" comment="" heading="-55.419" datetime="2023/2/2 6:16" tags="2F視聽室" nodeid="node13" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node12}" skinid="ht_node" id="Point01" tilt="-9.11" title="視聽室餐廳" pan="-13.31" description="" target="$fwd"/>
-      <hotspot url="{node16}" skinid="ht_node" id="Point02" tilt="1.02" title="中廊" pan="-66.17" description="" target="$fwd"/>
-      <hotspot url="" skinid="ht_info" id="Point04" tilt="-10.07" title="天貓精靈" pan="-113.16" description="視聽娛樂室提供語音服務內容如下&#xa; ＊ 語音命令請提供完整命令，例如：空調 （打開 / 關閉)等等。&#xa;視聽娛樂室設備名稱：&#xa;1.空調  2.小空調  3.落地窗簾  4.大窗簾  5.灯  6.廁所燈  7.餐桌灯  8.星空灯  9.隱藏燈&#xa;&#xa;請使用語音「天貓精靈」喚醒語音助理，待語音助理回應「我在，你說」，接著給予指令。請務必等待語音助理回應後再下達指令。&#xa;&#xa;例如想要射打開房間內的燈，請先說出「天貓精靈」，待語音助理回應「我在，你說」後再說出：「打開落地窗簾」，語音助理會將落地窗的窗簾打開。&#xa;&#xa;組合式口令共兩個:&#xa;1.我要看電影(系統自動關閉所有大燈打開星空頂燈)&#xa;2.電影結束了(系統自動關閉星空頂燈打開大燈)" target=""/>
-      <hotspot url="OsjovxfWeoM" skinid="ht_video_youtube" id="Point05" tilt="-17.34" title="點歌機操作" pan="-41.42" description="" target=""/>
-      <hotspot url="0xIaQzduchw" skinid="ht_video_youtube" id="Point06" tilt="-6.6" title="Switch操作" pan="-32.33" description="" target=""/>
-      <hotspot url="JYR33bN6N6g" skinid="ht_video_youtube" id="Point07" tilt="5.31" title="投影機與節目觀賞操作" pan="-0.47" description="" target=""/>
-      <hotspot url="" skinid="ht_gallery" id="Point03" tilt="10.09" title="" pan="-176.26" description="Gallery1_output" target="_blank"/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F視聽室" nodeid="node13" longitude="" heading="-55.419" title="視聽室劇院" author="James Lee" latitude="" customnodeid="" description="視聽室設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;視聽室設施提供：&#xa;。卡拉OK伴唱機&#xa;。 Switch / 有線頻道&#xa;。大尺寸家庭劇院設施 / 冰箱 /&#xa;。茶包 / 咖啡包 / 礦泉水 / 零嘴 / 紅酒&#xa;" datetime="2023/2/2 6:16" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="視聽室餐廳" skinid="ht_node" tilt="-9.11" id="Point01" url="{node12}" pan="-13.31" description="" target="$fwd"/>
+      <hotspot title="中廊" skinid="ht_node" tilt="1.02" id="Point02" url="{node16}" pan="-66.17" description="" target="$fwd"/>
+      <hotspot title="天貓精靈" skinid="ht_info" tilt="-10.07" id="Point04" url="" pan="-113.16" description="視聽娛樂室提供語音服務內容如下&#xa; ＊ 語音命令請提供完整命令，例如：空調 （打開 / 關閉)等等。&#xa;視聽娛樂室設備名稱：&#xa;1.空調  2.小空調  3.落地窗簾  4.大窗簾  5.灯  6.廁所燈  7.餐桌灯  8.星空灯  9.隱藏燈&#xa;&#xa;請使用語音「天貓精靈」喚醒語音助理，待語音助理回應「我在，你說」，接著給予指令。請務必等待語音助理回應後再下達指令。&#xa;&#xa;例如想要射打開房間內的燈，請先說出「天貓精靈」，待語音助理回應「我在，你說」後再說出：「打開落地窗簾」，語音助理會將落地窗的窗簾打開。&#xa;&#xa;組合式口令共兩個:&#xa;1.我要看電影(系統自動關閉所有大燈打開星空頂燈)&#xa;2.電影結束了(系統自動關閉星空頂燈打開大燈)" target=""/>
+      <hotspot title="點歌機操作" skinid="ht_video_youtube" tilt="-17.34" id="Point05" url="OsjovxfWeoM" pan="-41.42" description="" target=""/>
+      <hotspot title="Switch操作" skinid="ht_video_youtube" tilt="-6.6" id="Point06" url="0xIaQzduchw" pan="-32.33" description="" target=""/>
+      <hotspot title="投影機與節目觀賞操作" skinid="ht_video_youtube" tilt="5.31" id="Point07" url="JYR33bN6N6g" pan="-0.47" description="" target=""/>
+      <hotspot title="" skinid="ht_gallery" tilt="10.09" id="Point03" url="" pan="-176.26" description="Gallery1_output" target="_blank"/>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node12">
-    <input leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2375" height="2375" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2375" predecode="0" width="2375" preload="0"/>
-      <level height="1187" predecode="0" width="1187" preload="0"/>
-      <level height="593" predecode="0" width="593" preload="0"/>
-      <level height="296" predecode="1" width="296" preload="1"/>
+    <input width="2375" height="2375" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2375" height="2375" predecode="0" preload="0"/>
+      <level width="1187" height="1187" predecode="0" preload="0"/>
+      <level width="593" height="593" predecode="0" preload="0"/>
+      <level width="296" height="296" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="-138.854" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="視聽室餐廳" author="James Lee" info="" copyright="jp-image.studio" description="視聽室設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;視聽室設施提供：&#xa;。卡拉OK伴唱機&#xa;。 Switch / 有線頻道&#xa;。大尺寸家庭劇院設施 / 冰箱 /&#xa;。茶包 / 咖啡包 / 礦泉水 / 零嘴 / 紅酒&#xa;" comment="" heading="-138.854" datetime="2023/2/2 10:50" tags="2F視聽室" nodeid="node12" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node14}" skinid="ht_node" id="Point01" tilt="-0.16" title="視聽室廁所" pan="-53.58" description="" target="$fwd"/>
-      <hotspot url="{node15}" skinid="ht_node" id="Point02" tilt="-0.9" title="洗衣間" pan="-87.7" description="" target="$fwd"/>
-      <hotspot url="{node13}" skinid="ht_node" id="Point03" tilt="0.41" title="視聽室劇院" pan="-260.46" description="" target="$fwd"/>
-      <hotspot url="images/image-14.jpg" skinid="ht_image" id="Point04" tilt="-27.98" title="餐桌、電動麻將桌" pan="-23.62" description="" target=""/>
-      <hotspot url="" skinid="ht_info" id="Point05" tilt="-20.82" title="Switch遊戲片與健身環" pan="-346.3" description="" target=""/>
-      <hotspot url="" skinid="ht_gallery" id="Point06" tilt="-15.01" title="" pan="-320.89" description="Gallery2_output" target="_blank"/>
-      <polyhotspot url="" id="Poly01" title="洗衣間" description="" target="_blank">
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F視聽室" nodeid="node12" longitude="" heading="-138.854" title="視聽室餐廳" author="James Lee" latitude="" customnodeid="" description="視聽室設施多半與智能幫手連線，請點各項設施影片了解操作方式。&#xa;&#xa;視聽室設施提供：&#xa;。卡拉OK伴唱機&#xa;。 Switch / 有線頻道&#xa;。大尺寸家庭劇院設施 / 冰箱 /&#xa;。茶包 / 咖啡包 / 礦泉水 / 零嘴 / 紅酒&#xa;" datetime="2023/2/2 10:50" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="視聽室廁所" skinid="ht_node" tilt="-0.16" id="Point01" url="{node14}" pan="-53.58" description="" target="$fwd"/>
+      <hotspot title="洗衣間" skinid="ht_node" tilt="-0.9" id="Point02" url="{node15}" pan="-87.7" description="" target="$fwd"/>
+      <hotspot title="視聽室劇院" skinid="ht_node" tilt="0.41" id="Point03" url="{node13}" pan="-260.46" description="" target="$fwd"/>
+      <hotspot title="餐桌、電動麻將桌" skinid="ht_image" tilt="-27.98" id="Point04" url="images/image-14.jpg" pan="-23.62" description="" target=""/>
+      <hotspot title="Switch遊戲片與健身環" skinid="ht_info" tilt="-20.82" id="Point05" url="" pan="-346.3" description="" target=""/>
+      <hotspot title="" skinid="ht_gallery" tilt="-15.01" id="Point06" url="" pan="-320.89" description="Gallery2_output" target="_blank"/>
+      <polyhotspot title="洗衣間" url="" id="Poly01" description="" target="_blank">
         <polystring>-73.8/20.7|-97.85/21.28|-97.63/-31.77|-74.07/-31.37</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node14">
-    <input leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2413" height="2413" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2413" predecode="0" width="2413" preload="0"/>
-      <level height="1206" predecode="0" width="1206" preload="0"/>
-      <level height="603" predecode="0" width="603" preload="0"/>
-      <level height="301" predecode="1" width="301" preload="1"/>
+    <input width="2413" height="2413" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2413" height="2413" predecode="0" preload="0"/>
+      <level width="1206" height="1206" predecode="0" preload="0"/>
+      <level width="603" height="603" predecode="0" preload="0"/>
+      <level width="301" height="301" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="-48.1363" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="視聽室廁所" author="James Lee" info="" copyright="jp-image.studio" description="" comment="" heading="-48.1363" datetime="2023/2/2 11:26" tags="2F視聽室" nodeid="node14" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node12}" skinid="ht_node" id="Point01" tilt="-0.47" title="視聽室餐廳" pan="-161.55" description="" target="$fwd"/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F視聽室" nodeid="node14" longitude="" heading="-48.1363" title="視聽室廁所" author="James Lee" latitude="" customnodeid="" description="" datetime="2023/2/2 11:26" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="視聽室餐廳" skinid="ht_node" tilt="-0.47" id="Point01" url="{node12}" pan="-161.55" description="" target="$fwd"/>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <panorama id="node15">
-    <input leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2375" height="2375" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400">
-      <level height="2375" predecode="0" width="2375" preload="0"/>
-      <level height="1187" predecode="0" width="1187" preload="0"/>
-      <level height="593" predecode="0" width="593" preload="0"/>
-      <level height="296" predecode="1" width="296" preload="1"/>
+    <input width="2375" height="2375" levelbias="0.400" levelingpitch="0" leveltilesize="510" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+      <level width="2375" height="2375" predecode="0" preload="0"/>
+      <level width="1187" height="1187" predecode="0" preload="0"/>
+      <level width="593" height="593" predecode="0" preload="0"/>
+      <level width="296" height="296" predecode="1" preload="1"/>
       <preview strip="1" color="0x000000"/>
     </input>
     <view pannorth="-55.4119" fovmode="2">
       <start projection="4" tilt="0" fov="100" pan="180"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="1" tilt="-90" pan="0"/>
-      <max fovfisheye="360" tilt="90" fov="119.69" scaletofit="1" pan="360" fovstereographic="330"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fov="119.69" fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360"/>
     </view>
-    <userdata title="洗衣間" author="James Lee" info="" copyright="jp-image.studio" description="如有少量洗衣需求，可以使用此處洗衣機洗滌您的衣物。" comment="" heading="-55.4119" datetime="2023/2/12 7:35" tags="2F視聽室" nodeid="node15" longitude="" customnodeid="" latitude="" source=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label borderradius="1" wordwrap="1" width="180" borderalpha="1" backgroundalpha="0.686275" bordercolor="0x000000" height="20" textalpha="1" backgroundcolor="0x232323" textcolor="0xffffff" border="0" enabled="1" background="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="0" mode="0" backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098"/>
-      <hotspot url="{node12}" skinid="ht_node" id="Point01" tilt="-0.53" title="視聽室餐廳" pan="-184.77" description="" target="$fwd"/>
+    <userdata source="" info="" copyright="jp-image.studio" tags="2F視聽室" nodeid="node15" longitude="" heading="-55.4119" title="洗衣間" author="James Lee" latitude="" customnodeid="" description="如有少量洗衣需求，可以使用此處洗衣機洗滌您的衣物。" datetime="2023/2/12 7:35" comment=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label width="180" textalpha="1" height="20" borderradius="1" backgroundalpha="0.686275" backgroundcolor="0x232323" border="0" bordercolor="0x000000" textcolor="0xffffff" borderalpha="1" background="1" enabled="1" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="0"/>
+      <hotspot title="視聽室餐廳" skinid="ht_node" tilt="-0.53" id="Point01" url="{node12}" pan="-184.77" description="" target="$fwd"/>
     </hotspots>
     <media>
-      <sound tiltsize="10.000" startmutedmobile="0" loop="0" tilt="-1.000" field="90.000" ambientlevel="0.000" nodechangekeep="1" level="0.200" pansize="10.000" id="_background" mode="0" pan="-1.000">
+      <sound startmutedmobile="0" level="0.200" tiltsize="10.000" id="_background" loop="0" field="90.000" mode="0" tilt="-1.000" pan="-1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000">
         <source url="media/Natural - Endless Love.mp3" mono="0"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomfov="40" zoomafteroutfov="40" delay="none" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" softedge="0" zoomout="0" enabled="1" blendtime="1" zoomin="0" zoomoutpause="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control hideabout="0" sensitivity="8" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" speedwheel="1" contextvr="1" lockedmouse="0" rubberband="0" invertwheel="0" invertcontrol="1" contextprojections="0" simulatemass="1" lockedkeyboardzoom="0" zoomcentercursor="1" dblclickfullscreen="0"/>
+    <transition type="crossdissolve" softedge="0" zoomout="0" zoomoutpause="1" delay="none" blendcolor="0x000000" zoomafterinfov="140" zoomin="0" blendtime="1" zoomfov="40" enabled="1" zoomspeed="2" zoomafteroutfov="40"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" dblclickfullscreen="0" zoomcentercursor="1" sensitivity="8" rubberband="0" invertwheel="0" hideabout="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" contextvr="1"/>
   </panorama>
   <masternode>
-    <userdata title="花崗山剝皮寮民宿" author="" copyright="" description="花蓮的花崗山剝皮寮民宿，位於花蓮至高位置，看山賞海絕美景致，花崗山剝皮寮民宿私人包廂影音娛樂頂級奢華，享受不一樣的精緻空間，花崗山剝皮寮民宿無論是情侶住宿，或是好友花蓮享樂，花崗山剝皮寮民宿是您來花蓮的頂級民宿首選！" comment="" tags=""/>
+    <userdata title="花崗山剝皮寮民宿" author="" description="花蓮的花崗山剝皮寮民宿，位於花蓮至高位置，看山賞海絕美景致，花崗山剝皮寮民宿私人包廂影音娛樂頂級奢華，享受不一樣的精緻空間，花崗山剝皮寮民宿無論是情侶住宿，或是好友花蓮享樂，花崗山剝皮寮民宿是您來花蓮的頂級民宿首選！" copyright="" tags="" comment=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map mapstyle="streets" index="0" title="" googlecustomstylecode="" id="Map01" type="web" mapprovider="openstreetmap" mapmaxzoom="18" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
+  <map mapprovider="openstreetmap" type="web" id="Map01" mapstyle="streets" title="" mapurltemplate="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" mapmaxzoom="18" index="0" googlecustomstylecode=""/>
 </tour>
