@@ -114,7 +114,7 @@
       <hotspot description="" distance="1.16444" tilt="-0.6" id="Point01" pan="-357.96" target="-6.5/-0.8/100.0" url="{node16}" title="中廊" skinid="ht_node"/>
     </hotspots>
     <media>
-      <video popbackmode="2" rotx="8.450" field="90.000" pansize="10.000" level="1.000" nodechangekeep="0" mode="3" width="1920" stretch="1.254" tilt="13.244" id="Element01" height="1080" rotz="-0.732" pan="3.729" loop="0" ambientlevel="0.000" tiltsize="10.000" roty="8.838" hidepinned="0" startmutedmobile="0" clickmode="1" fov="25.480" handcursor="1">
+      <video popbackmode="2" rotx="13.835" field="90.000" pansize="10.000" level="1.000" nodechangekeep="0" mode="3" width="1920" stretch="1.184" tilt="13.864" id="Element01" height="1080" rotz="-0.836" pan="3.725" loop="0" ambientlevel="0.000" tiltsize="10.000" roty="3.534" hidepinned="0" startmutedmobile="0" clickmode="1" fov="26.509" handcursor="1">
         <source url="media/video.mp4"/>
       </video>
       <sound tilt="-1.000" field="90.000" id="_background" pansize="10.000" pan="-1.000" loop="0" ambientlevel="0.000" level="0.600" tiltsize="10.000" startmutedmobile="0" nodechangekeep="1" mode="0">

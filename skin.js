@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.12/20035
 // Filename: skin_with_FloorPlan_and_Logo??8.ggsk
-// Generated 2024-05-26T09:48:49
+// Generated 2024-05-26T09:59:22
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_thumbnail_menu', 2, false, { ignoreInState: 1  });
